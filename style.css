@@ -149,6 +149,10 @@ nav{
 
 /* navbar 2 ends here  */
 
+
+
+
+
 .product{
     width: 100vw;
     height: 500px;
@@ -157,14 +161,17 @@ nav{
     position: absolute;
     top: 400px;
     padding: 20px;
+    display: flex;
 }
 
 .cards{
+    /* padding-top: 40px; */
+    margin-left: 10px;
     padding: 10px;
     position: relative;
     background-color: white;
-    height: 300px;
-    width: 500px;
+    height: 330px;
+    width: 350px;
     /* display: flex; */
     align-items: center;
     gap: 10px;
@@ -175,19 +182,23 @@ nav{
 .top{
     display: flex;
     gap: 10px;
+    margin-top: 10px;
     margin-bottom: 10px;
+    margin-left: 10px;
 }
 .bottom{
     display: flex;
     gap: 10px;
+    margin-left: 10px;
 }
 .cheading{
+    margin-left: 15px;
+    padding-top:15px;
     font-size: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     align-self: center;
-    font-weight: 400;
-    display: flex;
+    font-weight: 600;
 }
 
 .img1{
@@ -199,3 +210,173 @@ nav{
     display: flex;
 }
 
+
+/* middle starts here  */
+
+.middle{
+    background-color: rgba(242, 235, 235, 0.921);
+    width: 100vw;
+    height: 1000px;
+}
+
+
+
+
+/* status */
+.status{
+    color: white;
+    background-color: #3b4a5d;
+    height: 50px;
+    padding: 10px;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+ul{
+    list-style: none;
+     /* display: flex; */
+    /* align-items: left; */
+    text-align: left;
+    overflow: hidden;
+
+}
+ul {
+    list-style-position: outside;
+}
+
+
+.status2{
+    color: white;
+    background-color: #232f3e;
+    height: auto;
+    padding: 5px;
+    text-align: center;
+    display: flex;
+    
+}
+
+.statuscontent{
+    /* background-color: yellow; */
+    height: auto;
+    width: auto;
+    margin: 0px 0px 0px 240px;
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.col{
+    width: 220px;
+    height: auto;
+    /* background-color: blue; */
+}
+
+
+
+    .status3{
+        color: white;
+        background-color: #232f3e;
+        height: auto;
+        padding: 5px;
+        text-align: center;
+        padding-bottom: 50px;
+        
+    }
+
+    hr{
+        display: block;
+    }
+
+    .status2content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        margin-bottom: 20px;
+    }
+
+
+    .country-list{
+        display: flex;
+        align-items: center;
+        gap: 7px;
+        justify-content: center;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 100;
+    }
+    a:hover{
+        text-decoration: underline;
+
+    }
+
+
+    /* end starts here  */
+.end{
+    background-color: #071525;
+    color: white;
+    height: 400px;
+    width: 100vw;
+    display: flex;
+}
+
+.endcontent{
+    /* background-color: yellow; */
+    width: 800px;
+    height: 300px;
+    margin: 20px 0px 0px 240px;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+
+/* .endcontent1{
+    background-color: blue;
+    width: 140px;
+    height: auto;
+
+} */
+
+
+.end-content-container{
+    /* background-color: blue; */
+    height: auto;
+    width: auto;
+    /* margin: 0px 0px 0px 240px; */
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+
+.col2{
+    width: 170px;
+    height: auto;
+    font-size: 12px;
+    /* background-color: blue; */
+}
+
+h3{
+    margin-bottom: 0px;
+}
+.lastcontent
+{
+    color:white;
+    background-color: transparent;
+    height:100px;
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 13px;
+    cursor: pointer;
+    gap:10px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
